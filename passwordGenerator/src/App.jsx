@@ -36,7 +36,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black flex justify-center items-center">
-      <div className="bg-gray-800 w-full max-w-md rounded-xl shadow-lg px-6 py-8">
+      <div
+      style={{backgroundColor: 'purple'}}
+      className="bg-gray-800 w-full max-w-md rounded-xl shadow-lg px-6 py-8">
         <h1 style={{ color: 'white' }} className="text-center text-2xl font-bold mb-6">
   Password Generator
 </h1>
